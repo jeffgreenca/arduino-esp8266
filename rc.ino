@@ -1,5 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
+#include "secrets.h"
 
 WiFiUDP Udp;
 unsigned int localUdpPort = 1011;
