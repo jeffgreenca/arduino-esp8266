@@ -8,6 +8,7 @@ const int bufSize = 255;
 char buf[bufSize];
 char out[] = "";
 
+// secrets.h contains #define statements for these values
 const char *ssid = MY_WIFI_NETWORK_NAME;
 const char *password = MY_WIFI_NETWORK_PASS;
 
